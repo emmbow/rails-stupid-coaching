@@ -1,0 +1,20 @@
+<h1>Questions#answer</h1>
+
+<div class="question">
+  <p>User input:</p>
+  <p><strong><%= @question %></strong></p>
+</div>
+
+<div class="answer">
+  <p>Coach answer:</p>
+  <p><strong><%= @answer %></strong></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
+
+<!-- If the message  is I am going to work, the coach will answer Great!
+
+If the message has a question mark ? at the end,
+the coach will answer Silly question, get dressed and go to work!.
+
+Otherwise she/he will answer I don't care, get dressed and go to work! -->
